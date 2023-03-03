@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list > h2 {
+  margin: auto;
+  color: antiquewhite;
+  font-size: 3rem;
+  -webkit-text-stroke: 2px var(--oranje);
+}

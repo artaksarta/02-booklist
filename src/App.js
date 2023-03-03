@@ -1,13 +1,21 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import List from './components/List';
-import booklist from './data/booklist';
+import Main from './components/Main';
+import MainLayout from './layouts/MainLayout';
+import BookPage from './components/BookPage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Book List</h1>
-      <List booklist={booklist} />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Main />} />
+            <Route path=":slug" element={<BookPage />} />
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

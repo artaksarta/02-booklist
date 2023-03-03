@@ -12,6 +12,9 @@ const booklist = [
     id: uuidv4(),
     img: p01,
     alt: '01',
+    slug: 'dmitry-iznasillov-the-kinsman',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur ipsum fugiat quisquam assumenda dolor iste odit, laborum ab. Corporis quibusdam quia omnis quas, iste eos. Nemo suscipit ducimus praesentium enim rerum. Quibusdam, tenetur. Amet, fuga nisi. Unde porro, aut maxime fuga est quas ea iste et nostrum nam vero ipsum quidem nulla cumque sequi accusantium quisquam velit magni fugit.',
   },
   {
     author: 'Orhan Pamuk',
@@ -19,6 +22,9 @@ const booklist = [
     id: uuidv4(),
     img: p02,
     alt: '02',
+    slug: 'orhan-pamuk-the-white-castle',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur ipsum fugiat quisquam assumenda dolor iste odit, laborum ab. Corporis quibusdam quia omnis quas, iste eos. Nemo suscipit ducimus praesentium enim rerum. Quibusdam, tenetur. Amet, fuga nisi. Unde porro, aut maxime fuga est quas ea iste et nostrum nam vero ipsum quidem nulla cumque sequi accusantium quisquam velit magni fugit.',
   },
   {
     author: 'Vladimir Sorokin',
@@ -26,6 +32,9 @@ const booklist = [
     id: uuidv4(),
     img: p03,
     alt: '03',
+    slug: 'vladimir-sorokin-their-four-hearts',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur ipsum fugiat quisquam assumenda dolor iste odit, laborum ab. Corporis quibusdam quia omnis quas, iste eos. Nemo suscipit ducimus praesentium enim rerum. Quibusdam, tenetur. Amet, fuga nisi. Unde porro, aut maxime fuga est quas ea iste et nostrum nam vero ipsum quidem nulla cumque sequi accusantium quisquam velit magni fugit.',
   },
   {
     author: 'Leo Tolstoy',
@@ -33,6 +42,9 @@ const booklist = [
     id: uuidv4(),
     img: p04,
     alt: '04',
+    slug: 'leo-tolstoy-novels',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur ipsum fugiat quisquam assumenda dolor iste odit, laborum ab. Corporis quibusdam quia omnis quas, iste eos. Nemo suscipit ducimus praesentium enim rerum. Quibusdam, tenetur. Amet, fuga nisi. Unde porro, aut maxime fuga est quas ea iste et nostrum nam vero ipsum quidem nulla cumque sequi accusantium quisquam velit magni fugit.',
   },
   {
     author: 'Oscar Wilde',
@@ -40,6 +52,9 @@ const booklist = [
     id: uuidv4(),
     img: p05,
     alt: '05',
+    slug: 'oscar-wilde-the-picture-of-dorian-gray',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur ipsum fugiat quisquam assumenda dolor iste odit, laborum ab. Corporis quibusdam quia omnis quas, iste eos. Nemo suscipit ducimus praesentium enim rerum. Quibusdam, tenetur. Amet, fuga nisi. Unde porro, aut maxime fuga est quas ea iste et nostrum nam vero ipsum quidem nulla cumque sequi accusantium quisquam velit magni fugit.',
   },
 ];
 

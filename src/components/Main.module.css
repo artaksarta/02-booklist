@@ -1,0 +1,8 @@
+.header {
+  -webkit-text-stroke: 3px var(--oranje);
+  color: antiquewhite;
+  font-size: 8rem;
+  font-weight: 600;
+  margin-block-start: 40px;
+  margin-block-end: 40px;
+}

@@ -1,45 +1,11 @@
+:root {
+  --oranje: #ed9d3c;
+  --seablue: #0e4362;
+  --greytext: #444;
+}
+
 body {
   font-family: 'Montserrat Alternates', sans-serif;
-  background-color: #0e4362;
+  background-color: var(--seablue);
   color: rgba(0, 0, 0, 0.8);
-}
-
-h1 {
-  -webkit-text-stroke: 3px #ed9d3c;
-  color: antiquewhite;
-  font-size: 8rem;
-  font-weight: 600;
-  margin-block-start: 40px;
-  margin-block-end: 40px;
-}
-
-.list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.book {
-  display: flex;
-  color: antiquewhite;
-  border-radius: 10px;
-  border: 5px solid antiquewhite;
-  width: 500px;
-  font-size: 1.5rem;
-  padding-right: 20px;
-  -webkit-box-shadow: 0px 5px 10px 2px #ed9d3c;
-  margin: 20px auto;
-}
-
-.book img {
-  width: 12rem;
-  height: 18rem;
-  border-radius: 10px;
-  border: 5px solid #ed9d3c;
-  -webkit-box-shadow: 0px 5px 10px 2px antiquewhite;
-  margin: 20px;
-}
-
-.cont {
-  display: inline-block;
-  margin: 20px auto;
 }

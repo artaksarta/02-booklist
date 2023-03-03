@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.form input {
+  background: antiquewhite;
+  border: 5px solid var(--oranje);
+  border-radius: 5px;
+  font-size: 1.3rem;
+  width: 40%;
+  height: 30px;
+  padding: 10px 15px;
+  margin-right: 20px;
+}
+
+.form button {
+  background: antiquewhite;
+  border: 5px solid var(--oranje);
+  border-radius: 5px;
+  font-size: 1.5rem;
+  width: 4%;
+  padding: 10px;
+  transition: 0.1s;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background: var(--oranje);
+}
+
+.icon {
+  color: var(--seablue);
+  transform: scale(1.5);
+}

@@ -1,12 +1,16 @@
-const Book = ({ book }) => {
+import styles from './Book.module.css';
+
+const Book = ({ book, showFullInfo }) => {
   return (
-    <div className="book">
-      <a href={book.img} target="_blank">
-        <img src={book.img} alt={book.alt} />
+    <div className={styles.book}>
+      <a href={book.img} target="_blank" rel="noreferrer">
+        <img className={styles.img} src={book.img} alt={book.alt} />
       </a>
-      <div className="cont">
+      <div className={styles.cont}>
         <h3>{book.author}</h3>
-        <h2>{book.title}</h2>
+        <h3 className={styles.header} onClick={() => showFullInfo(book)}>
+          {book.title}
+        </h3>
       </div>
     </div>
   );
